@@ -1,0 +1,77 @@
+html{
+    background-color:black;
+    background-position: fixed;
+}
+body{
+    width:95%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family:'Cinzel', serif;
+    background-color: rgb(20,20,20);
+    color: white;
+    box-shadow: 0px 0px 10px white;
+}
+#header{
+    background-color:rgb(20,20,20);
+    color:white;
+    text-align: center;
+    float: left;
+    width:100%;
+    height: img;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom:solid 10px rgb(200,200,200);
+}
+div.row::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+/*text*/
+#contact ul, #contact h3{
+  margin-left: 100px;
+}
+#about{
+    margin-left:20px;
+    margin-right:20px;
+}
+#info{
+    margin-left:15px;
+}
+a{
+    color:rgb(194, 123, 160);
+    text-decoration: none;
+    font-weight:bolder;
+}
+ul{
+    list-style-type: none;
+    padding:0px;
+}
+p, h3, #skills ul li{
+    margin-left:10px;
+}
+#skills ul{
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+}
+figcaption{
+    text-align: center;
+}
+/*img*/
+.fill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.horizontal li{
+    float:left;
+    display: block;
+    width: 30%;
+}
