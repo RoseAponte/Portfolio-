@@ -22,10 +22,19 @@ body{
     padding-bottom: 0px;
     border-bottom:solid 10px rgb(200,200,200);
 }
+
 div.row::after{
     clear: both;
     display: table;
     content: "";
+}
+#work{
+    display: block;
+}
+#work ul li{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*text*/
 #contact ul, #contact h3{
@@ -37,6 +46,12 @@ div.row::after{
 }
 #info{
     margin-left:15px;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
 }
 a{
     color:rgb(194, 123, 160);
@@ -59,13 +74,24 @@ figcaption{
     text-align: center;
 }
 /*img*/
-.fill{
+#icon{
+    width:3em;
+    filter: invert(1);
+}
+#icon:hover{
+    filter: invert(0.5);
+    content: ""attr(alt)"";
+}
+#icons li{
+    width:25%;
+}
+#fill{
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 }
-.fill img {
+#fill img {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%
