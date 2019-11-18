@@ -80,7 +80,6 @@ figcaption{
 }
 #icon:hover{
     filter: invert(0.5);
-    content: ""attr(alt)"";
 }
 #icons li{
     width:25%;
