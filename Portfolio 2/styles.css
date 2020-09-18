@@ -1,0 +1,17 @@
+html{
+    background-color:black;
+    background-position: fixed;
+}
+body{
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size:100%;
+    background: url("images/background.jpg");
+   
+}
+
+header{
+    text-align: center;
+}
